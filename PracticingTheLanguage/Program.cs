@@ -62,12 +62,18 @@ public class Cup
 	private int _liquidLevel;
 
 	public Cup(int capacity)
-	{//Homework -> protect from negative value
-		_capacity = capacity;
+	{
+        if (capacity < 0)
+            throw new ArgumentException(nameof(capacity), "Capacity cannot be negative");
+
+        _capacity = capacity;
 	}
 
 	public void Add(int amount)
-    {//Homework -> protect from negative value
+    {
+        if (amount < 0)
+            throw new ArgumentException(nameof(amount), "Amount cannot be negative");
+
         _liquidLevel += amount;
 
 		if (_liquidLevel > _capacity)
@@ -75,7 +81,10 @@ public class Cup
     }
 
 	public void Pour(int amount)
-    {//Homework -> protect from negative value
+    {
+        if (amount < 0)
+            throw new ArgumentException(nameof(amount), "Amount cannot be negative");
+
         _liquidLevel -= amount;
 
         if (_liquidLevel < 0)
