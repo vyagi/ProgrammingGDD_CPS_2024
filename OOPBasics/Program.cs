@@ -15,7 +15,6 @@ public class Car
 {
     private readonly string _brand;
     private readonly string _model;
-    private readonly int _tankCapacity;
     private readonly double _fuelConsumption;
     private double _fuelLevel;
     private double _odometer;

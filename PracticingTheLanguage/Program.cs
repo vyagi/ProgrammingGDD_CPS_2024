@@ -1,4 +1,6 @@
-﻿var myBeautifulCup = new Container(300);
+﻿using UtilityClasses;
+
+var myBeautifulCup = new Cup();
 myBeautifulCup.Add(100);
 myBeautifulCup.Remove(70);
 Console.WriteLine(myBeautifulCup.ContentLevel);
@@ -23,8 +25,8 @@ public class CoffeeMachine
     public CoffeeMachine(string modelName, int coffeeGrainsCapacity, int waterCapacity)
     {
         _modelName = modelName;
-        _coffeeContainer = new Container(coffeeGrainsCapacity);
-        _waterContainer = new Container(waterCapacity);
+        _coffeeContainer = new CoffeeGrainsContainer(coffeeGrainsCapacity);
+        _waterContainer = new WaterContainer(waterCapacity, true);
     }
 
     public void AddGrains(int amount) => _coffeeContainer.Add(amount);

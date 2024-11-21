@@ -1,6 +1,6 @@
 ﻿namespace UtilityClasses;
 
-public class Container
+public abstract class Container
 {
     private readonly int _capacity;
 	private int _contentLevel;
