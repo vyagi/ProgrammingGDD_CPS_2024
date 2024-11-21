@@ -1,0 +1,6 @@
+Name;Amount;Category;Date
+Sushi;206;Food;2024-10-02
+Kebab;25;Food;2024-11-19
+Trousers;100;Clothes;2024-09-30
+Laptop;10000;School;2024-10-02
+Shoes;300.50;Clothes;2024-11-10
