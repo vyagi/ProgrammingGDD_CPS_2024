@@ -33,6 +33,9 @@
             pathLabel = new Label();
             resultTextBox = new TextBox();
             categoryButton = new Button();
+            byMonthButton = new Button();
+            openButton = new Button();
+            saveButton = new Button();
             SuspendLayout();
             // 
             // readButton
@@ -49,7 +52,7 @@
             // 
             pathTextBox.Location = new Point(78, 20);
             pathTextBox.Name = "pathTextBox";
-            pathTextBox.Size = new Size(445, 23);
+            pathTextBox.Size = new Size(361, 23);
             pathTextBox.TabIndex = 1;
             pathTextBox.Text = "C:\\Users\\mjagiela\\Desktop\\Invoices.txt";
             // 
@@ -74,17 +77,48 @@
             // 
             categoryButton.Location = new Point(98, 60);
             categoryButton.Name = "categoryButton";
-            categoryButton.Size = new Size(83, 23);
+            categoryButton.Size = new Size(80, 23);
             categoryButton.TabIndex = 4;
             categoryButton.Text = "By category";
             categoryButton.UseVisualStyleBackColor = true;
             categoryButton.Click += categoryButton_Click;
+            // 
+            // byMonthButton
+            // 
+            byMonthButton.Location = new Point(184, 60);
+            byMonthButton.Name = "byMonthButton";
+            byMonthButton.Size = new Size(80, 23);
+            byMonthButton.TabIndex = 5;
+            byMonthButton.Text = "By month";
+            byMonthButton.UseVisualStyleBackColor = true;
+            byMonthButton.Click += byMonthButton_Click;
+            // 
+            // openButton
+            // 
+            openButton.Location = new Point(445, 20);
+            openButton.Name = "openButton";
+            openButton.Size = new Size(75, 23);
+            openButton.TabIndex = 6;
+            openButton.Text = "Open";
+            openButton.UseVisualStyleBackColor = true;
+            // 
+            // saveButton
+            // 
+            saveButton.Location = new Point(445, 60);
+            saveButton.Name = "saveButton";
+            saveButton.Size = new Size(75, 23);
+            saveButton.TabIndex = 7;
+            saveButton.Text = "Save";
+            saveButton.UseVisualStyleBackColor = true;
             // 
             // InvoiceManagerForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(535, 450);
+            Controls.Add(saveButton);
+            Controls.Add(openButton);
+            Controls.Add(byMonthButton);
             Controls.Add(categoryButton);
             Controls.Add(resultTextBox);
             Controls.Add(pathLabel);
@@ -103,5 +137,8 @@
         private Label pathLabel;
         private TextBox resultTextBox;
         private Button categoryButton;
+        private Button byMonthButton;
+        private Button openButton;
+        private Button saveButton;
     }
 }
