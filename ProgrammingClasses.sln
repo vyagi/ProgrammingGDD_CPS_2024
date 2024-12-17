@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPBasics", "OOPBasics\OOPB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticingTheLanguage", "PracticingTheLanguage\PracticingTheLanguage.csproj", "{2E4AEA51-A362-4ABE-8EC0-07E79A090B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityClasses", "UtilityClasses\UtilityClasses.csproj", "{23CFF7D4-3B38-4C98-8CF5-B4643D2AF1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityClasses", "UtilityClasses\UtilityClasses.csproj", "{23CFF7D4-3B38-4C98-8CF5-B4643D2AF1CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{A5964DF4-315F-4224-B488-361CA4DBCA81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{A5964DF4-315F-4224-B488-361CA4DBCA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{E2A4025F-811A-47A3-9D66-8F397E7CC906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A5964DF4-315F-4224-B488-361CA4DBCA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5964DF4-315F-4224-B488-361CA4DBCA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5964DF4-315F-4224-B488-361CA4DBCA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
