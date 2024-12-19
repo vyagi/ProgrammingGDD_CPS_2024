@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityClasses", "UtilityCl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceManager", "InvoiceManager\InvoiceManager.csproj", "{A5964DF4-315F-4224-B488-361CA4DBCA81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{E2A4025F-811A-47A3-9D66-8F397E7CC906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqTutorial", "LinqTutorial\LinqTutorial.csproj", "{E2A4025F-811A-47A3-9D66-8F397E7CC906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacePractice", "InterfacePractice\InterfacePractice.csproj", "{A5E5349E-5BAD-4C86-A752-24044CF936F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A4025F-811A-47A3-9D66-8F397E7CC906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E5349E-5BAD-4C86-A752-24044CF936F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E5349E-5BAD-4C86-A752-24044CF936F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E5349E-5BAD-4C86-A752-24044CF936F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E5349E-5BAD-4C86-A752-24044CF936F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
